@@ -5,6 +5,7 @@ account_city="Ranchi"
 let account_State;
 /*
 Prefer Not to use Var
+Because of issue in Block Scope and Functional Scope
 */
 
 console.table([account_id, account_email, account_password, account_city,'Abc',account_State])
